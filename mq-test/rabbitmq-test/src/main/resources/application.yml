@@ -10,8 +10,14 @@
 server:
   port: 8080
 spring:
+  profiles:
+    active:
   rabbitmq:
     addresses: 60.205.226.96:5672
+#    username: uat
+#    password: 123456
+    # virtual-host 相当于 host 可以起到分组的作用
+    virtual-host: /${spring.profiles.active}
     username: admin
     password: rdc@2019!
   cloud:
