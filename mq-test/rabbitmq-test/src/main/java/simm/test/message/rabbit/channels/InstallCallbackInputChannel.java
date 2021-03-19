@@ -11,7 +11,7 @@ public interface InstallCallbackInputChannel {
     /**
      * 定义通道的名称
      */
-    String INPUT = "install-consumer";
+    String INPUT = "template-install-consumer";
 
     /**
      * 定义为输入通道

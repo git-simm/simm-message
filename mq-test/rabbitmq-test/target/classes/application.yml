@@ -20,15 +20,15 @@ spring:
       bindings:
         # 生产-消费者 指向同一个topic
         install-producter:
-          destination: yysc-template-install
+          destination: yysc-install
 #          group: yysc-queue
-        install-consumer:
-          destination: yysc-bizunit-install
+        template-install-consumer:
+          destination: yysc-install
           group: template
           consumer:
             concurrency: 5
         bizunit-install-consumer:
-          destination: yysc-bizunit-install
-          group: main
+          destination: yysc-install
+          group: bizunit
           consumer:
             concurrency: 5
