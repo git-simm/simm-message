@@ -1,5 +1,6 @@
 package simm.test.message.rabbit.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.stream.annotation.Output;
 import org.springframework.messaging.MessageChannel;
 import org.springframework.messaging.support.MessageBuilder;
@@ -14,13 +15,17 @@ import javax.annotation.Resource;
  * @author miscr
  */
 @RestController
+@Slf4j
 public class TestController {
     @Resource
     @Output(InstallCallbackOutputChannel.OUTPUT)
     private MessageChannel messageChannel;
 
     @GetMapping("/send")
-    public void sendMessage(){
+    public void sendMessage() throws Exception {
+        log.info("启动日志系统");
         messageChannel.send(MessageBuilder.withPayload("服务已经启动，准备安装消息").build());
+//        throw new Exception("坏了");
+        log.error("坏了",new Throwable("坏了"));
     }
 }
