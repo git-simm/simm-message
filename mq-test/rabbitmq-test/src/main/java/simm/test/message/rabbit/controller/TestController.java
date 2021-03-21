@@ -25,7 +25,5 @@ public class TestController {
     public void sendMessage() throws Exception {
         log.info("启动日志系统");
         messageChannel.send(MessageBuilder.withPayload("服务已经启动，准备安装消息").build());
-//        throw new Exception("坏了");
-        log.error("坏了",new Throwable("坏了"));
     }
 }
