@@ -50,8 +50,6 @@ x
 H.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_12_RELEASE.xml,8\f\8fc412df95f5a524b84055083227194046a68a9c
 v
 F.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml,1\a\1a8dd96cea24440cd3fef501076cfbfe31055338
-[
-+.idea/libraries/Maven__junit_junit_4_12.xml,a\f\afa6ca72908af2e838d0cb108eb24f143bc62da7
 ]
 -.idea/libraries/Maven__log4j_log4j_1_2_17.xml,2\d\2dfa7669c20c41273cb505d16f04d17467fb3330
 |
@@ -66,8 +64,6 @@ r
 B.idea/libraries/Maven__org_checkerframework_checker_qual_2_8_1.xml,6\e\6e998cf4e0f4c8b5bce6a07a9176f1272bfd2389
 |
 L.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml,f\0\f018b16d084821729d01f90637e4b741698fe3ba
-i
-9.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml,b\8\b8d96649614bd84192f3496ef7d33bab1d1e5ec1
 k
 ;.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml,9\f\9f594e90f4f66752dc32a1fb95f99e1142cb6f27
 u
@@ -130,3 +126,17 @@ W
 'mq-test/rabbitmq-test/rabbitmq-test.iml,5\0\509ad0bd5ce92f69a3a5c46216ed9d43e55e549c
 W
 'mq-test/rocketmq-test/rocketmq-test.iml,3\4\34da4f440b9d75bc991acd7c2ceb0c377ba7a3ea
+‹
+[mq-test/rabbitmq-test/src/main/java/simm/test/message/rabbit/controller/TestController.java,3\2\325a0a9fe284d1bdef51a2bb2f9ac0ddb3253488
+P
+ mq-test/rabbitmq-test/Dockerfile,8\7\87567d6cd407cdd3a224fc3a93f5d19cf41a0bc1
+o
+?el-test/spel-test/src/main/java/simm/el/test/spel/Interest.java,f\0\f0ee88fed22a077225ca70d9497a2030a5800240
+?
+el-test/pom.xml,f\7\f7a23d9f7e2a690d7ceadc808d382079506e0144
+k
+;el-test/spel-test/src/main/java/simm/el/test/spel/User.java,0\1\014c47d685b132335fa170159fa5dfbc4ce10452
+I
+el-test/spel-test/pom.xml,2\f\2f327c64f0b3e8c0fd7ad8e1f5bb809dde8160ce
+o
+?el-test/spel-test/src/test/java/simm/el/test/spel/SpelTest.java,0\7\07aa07e463a70d16f5cf2e0135d4310ba4196d0f
