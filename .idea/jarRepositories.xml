@@ -9,12 +9,12 @@
     <remote-repository>
       <option name="id" value="nexus" />
       <option name="name" value="crop-nexus" />
-      <option name="url" value="https://nexus.mingyuanyun.com/repository/maven-public/" />
+      <option name="url" value="https://nexus.simm.com/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
-      <option name="url" value="https://nexus.mingyuanyun.com/repository/maven-public/" />
+      <option name="url" value="https://nexus.simm.com/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
